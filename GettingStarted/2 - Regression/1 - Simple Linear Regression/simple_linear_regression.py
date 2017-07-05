@@ -18,3 +18,5 @@ regressor.fit(X_train, y_train)
 
 # Predict test set result
 y_pred = regressor.predict(X_test)
+
+# Visualize!
