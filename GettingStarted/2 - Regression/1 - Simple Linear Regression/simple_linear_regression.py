@@ -20,3 +20,13 @@ regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 
 # Visualize!
+def visualize_results(X, y, title):
+    plt.scatter(X, y, color='red')
+    plt.plot(X_train, regressor.predict(X_train), color='green')
+    plt.title(title)
+    plt.xlabel('Years of Experience')
+    plt.ylabel('Salary')
+    plt.show()
+    
+visualize_results(X_train, y_train, title='Salary VS Experience (Training Set)')
+visualize_results(X_test, y_test, title='Salary VS Experience (Test Set)')
