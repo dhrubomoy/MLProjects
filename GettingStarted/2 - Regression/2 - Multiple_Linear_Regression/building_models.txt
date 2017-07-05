@@ -1,0 +1,9 @@
+5 Methods of building models:
+    1. All-in
+    2. Backward Elimination          ^|
+    3. Forward Selection               > Stepwise Regression
+    4. Bidirectional Elimination     _|
+    5. Score Comparisn
+    
+
+    
